@@ -20,7 +20,8 @@ To build it yourself, install mdbook (`cargo install mdbook`) and run `mdbook se
 
 #### How to add contracts for testing
 
-1. Open the root **/Cargo.toml** file. Add a new workspace named after the actual program: `"program_name"`, `"pocs"`
+1. Open the root **/Cargo.toml** file. Add a new workspace named after the actual program: `"program_name"`, 
+AND `"pocs"`
 2. Open the **/pocs/Cargo.toml**. Add a path to the program: `program_name = { path = "../program_name" }`
 3. Make sure you are consistent in namings **;)**
    Open the **/program_name/Cargo.toml**:

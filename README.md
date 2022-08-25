@@ -17,7 +17,7 @@ All details are in the docs. To check it out online, visit [https://workshop.neo
 
 To build it yourself, install mdbook (`cargo install mdbook`) and run `mdbook serve`.
 
-
+## From me again :)
 #### How to add contracts for testing
 
 1. Open the root **/Cargo.toml** file. Add a new workspace named after the actual program: `"program_name"`, 
